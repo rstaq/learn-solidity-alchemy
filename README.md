@@ -12,7 +12,7 @@ This repository provides solutions to the code exercises of the Alchemy Universi
 - [Contributing](#contributing)
 - [License](#license)
 
-### Introduction
+## Introduction
 
 > **Learn Solidity** covers the essentials of the language, 
 starting from basic value types like int, uint, and bool, 
@@ -24,7 +24,7 @@ laying the groundwork for future learning in EIPs and community-adopted patterns
 It's the ultimate starting point for anyone looking to be effective in the space!
 
 
-### Prerequisites
+## Prerequisites
 
 The course leverages Foundry as its primary development framework,
 a robust toolset that greatly facilitates the compilation of smart contracts
@@ -34,47 +34,47 @@ used within the course to test the solutions provided by the students.
 
 To install Foundry, head over to their documentation: https://book.getfoundry.sh/
 
-### Course Contents
+## Course Contents
 
 Within each chapter, you will find all individual coding challenges with a provided solution.
 As in other programming languages, multiple solutions are often possible. 
 Consequently, the solutions presented here should not be treated as exclusive or definitive. 
 Alternative approaches may also yield successful test runs.
 
-#### Chapter 1  
+### Chapter 1  
 
 - Basic Data Types
 - Functions
 
-#### Chapter 2
+### Chapter 2
 
 - Sending Ether
 - Reverting Transactions
 - Calldata
 - Code an Escrow contract
 
-#### Chapter 3 
+### Chapter 3 
 
 - Arrays
 - Structs
 - Mappings
 
-#### Chapter 4
+### Chapter 4
 
 - Code a Voting contract leveraging the course contents
 - Inheritance
 
-### Usage
+## Usage
 
 Use the command line to compile and test the smart contracts.
 
-#### Compile
+### Compile
 
 ```shell
 $ forge compile
 ```
 
-#### Test
+### Test
 
 ```shell
 $ forge test
